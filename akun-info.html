@@ -6,71 +6,71 @@
 </head>
 <body>
     <h2>Akun Info</h2>
-    <table border="1">
+    <table border="0,1">
         <tr>
             <th>Account Management</th>
-            <th colspan="2">Profile Information</th>
+            <th>Profile Information</th>
         </tr>
         <tr>
-            <td rowspan="6"><img src="https://pbs.twimg.com/profile_images/1191612424702398464/FCu3CrDA_400x400.jpg" alt="Profile Photo" style="border-radius:50%;"></td>
-            <td>Username</td>
-            <td>First Name</td>
-        </tr>
-        <tr>
-            <td><input type="text" id="nama" placeholder="anozeref"></input></td>
-            <td><input type="text" id="namadepan" placeholder="Fikry"></input></td>
-        </tr>
-        <tr>
-            <td>Nickname</td>
-            <td>Role</input></td>
-        </tr>
-        <tr>
-            <td ><input type="text" id="nick" placeholder="Fik"></input></td>
-            <td><select name="role" id="role">
+            <td rowspan="6"><img src="https://pbs.twimg.com/profile_images/1191612424702398464/FCu3CrDA_400x400.jpg" alt="Profile Photo" style="border-radius:50%;">
+            <br>
+                <center>
+                    <button type="submit">Update Profile</button><br>
+                    Old Password<br>
+                    <input type="password" id="oldpass" placeholder="******"></input><br>
+                    New Password<br>
+                    <input type="password" id="newpass"></input><br>
+                </center>
+                </td>
+            <td>Username<br>
+                <input type="text" id="nama" placeholder="anozeref"></input><br><br>
+                Nickname<br>
+                <input type="text" id="nick" placeholder="Fik"></input><br><br>
+                Last Name<br>
+                <input type="text" id="namabelakang" placeholder="Arief"></input><br><br>
+            </td>
+            <td>First Name<br>
+            <input type="text" id="namadepan" placeholder="Fikry"></input><br><br>
+            Role<br>
+            <select name="role" id="role">
         <option value="subs">Subscriber</option> <option value="mem">Member</option> <option value="VIP">VIP</option>
-        <option value="Admin">Admin</option>td>
+        <option value="Admin">Admin</option>
+        </select><br><br>
+            Display Name Publicy as<br>
+            <input type="text" id="display" placeholder="F Arief"></input><br><br>
+
+            </td>
         </tr>
-        <tr>
-            <td>Last Name</td>
-            <td>Display Name Publicy as</input></td>
-        </tr>
-        <tr>
-            <td ><input type="text" id="namabelakang" placeholder="Arief"></input></td>
-            <td><input type="text" id="display" placeholder="F Arief"></input></td>
-        </tr>
-        <tr>
-            <td align="center"><button type="submit">Update Profile</button>        
+        <tr>      
             </td>
             <td>Contact Info</td>
         </tr>
         <tr>
-            <td align="center">Old Password</td>
             <td>Email</td>
             <td>Whatapps</td>
         </tr>
         <tr>
-            <td align="center"><input type="password" id="oldpass" placeholder="******"></input></td>
             <td><input type="text" id="email" placeholder="kantorposfikry@gmail.com"></input></td>
             <td><input type="text" id="wa" placeholder="082*****1476"></input></td>
         </tr>
         <tr>
-            <td align="center">New Password</td>
             <td>Website</td>
             <td>Telegram</td>
         </tr>
         <tr>
-            <td align="center"><input type="password" id="newpass"></input></td>
             <td><input type="text" id="web" placeholder="-"></input></td>
             <td><input type="text" id="tg" placeholder="-"></input></td>
         </tr>
-        <tr>
-            <td align="center"><button type="submit">Change Password</button>        
-            </td>
+        <tr>       
+            <td></td>
             <td>About The User</td>
         </tr>
         <tr>
             <td>    </td>
             <td colspan="3"><textarea name="about" id="about" cols="70" rows="10" placeholder="About Me"></textarea></td>   
-    </table>
+    </table> 
+    <table>
+        <tr>    
+            <td><br><br><a href="index.html"><b> Back! </b></a></td>    
 </body>
 </html>
